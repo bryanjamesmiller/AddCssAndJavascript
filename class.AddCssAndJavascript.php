@@ -20,9 +20,11 @@ class AddCssAndJavascriptPlugin extends Gdn_Plugin {
     public function Base_Render_Before($Sender) {
         $Sender->AddJsFile('plugins/AddCssAndJavascript/js/custom.js');
         $Sender->AddCssFile('plugins/AddCssAndJavascript/css/custom.css');
-        $Sender->Head->AddString("
+
         //If you would like to include another item within the <head>, such as
-        //Google Analytics with <script></script> tags, enter it here as a string (leave the quotes intact).
+        //Google Analytics with <script></script> tags, enter it below as a string (leave the quotes intact).
+        $Sender->Head->AddString("
+
         ");
     }
 }
