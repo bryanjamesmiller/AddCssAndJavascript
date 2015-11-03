@@ -7,4 +7,4 @@ Note that it's also theme-independent, so using this plugin can add the same cus
 
 It also allows you to enter a string of whatever you like within the head tags of your forum's HTML code. There you can add anything such as additional .js or .css files, or a Google Analytics script.
 
-Feel free to offer your own contributions to this plugin
+Feel free to offer your own contributions to this plugin.
